@@ -34,12 +34,48 @@ nav {
 }
 
 .logo:hover {
-    color: rgb(222, 211, 022);
+    transform: translateX(10px);
 }
 
 span {
-    color: rgb(244, 144, 082);
+    color: rgb(123, 238, 138);
 }
+
+li {
+    transition: .7s;
+}
+
+li:hover {
+    transform: scale(1.2);
+}
+
 nav ul li {
-    
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+nav ul li a:hover {
+    color: rgb(123, 238, 138);
+}
+
+.btn {
+    background-color: rgb(123, 238, 138);
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover {
+    transform: scale(1.2);
 }
