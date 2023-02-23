@@ -1,6 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-.full-name-title {
-    color: black;
-    font-family: 'Shadows into Light Two', sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(DSC01273\ -\ Copy.JPG);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8% ;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.logo:hover {
+    color: rgb(222, 211, 022);
+}
+
+span {
+    color: rgb(244, 144, 082);
+}
+nav ul li {
+    
 }
